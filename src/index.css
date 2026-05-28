@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+  }
+  #root { width: 100%; max-width: 100%; margin: 0; text-align: left; border: none; min-height: 100svh; display: flex; flex-direction: column; }
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 3px; }
+}
+
+@layer utilities {
+  .fade-in { animation: fadeIn 0.18s ease-out; }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(3px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .streak-fire { animation: flicker 1.4s ease-in-out infinite alternate; }
+  @keyframes flicker {
+    0%   { opacity: 0.8; }
+    100% { opacity: 1; }
+  }
+  .slide-up { animation: slideUp 0.22s ease-out; }
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 767px) {
+  .sidebar-desktop { display: none !important; }
+  .day-panel-desktop { display: none !important; }
+  .mobile-nav { display: flex !important; }
+  .main-scroll { padding-bottom: 72px !important; }
+}
