@@ -137,4 +137,6 @@ Everything is stored in `localStorage` under `taskCalendar_v1_<userId>`. Nothing
 
 ## License
 
-MIT
+Attribution-Required — see [LICENSE](LICENSE).
+
+You are free to use, modify, and distribute this project provided you give clear credit to the original author: **[Garuda8887](https://github.com/Garuda8887)** with a link back to this repository.
