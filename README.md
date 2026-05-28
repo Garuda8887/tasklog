@@ -1,6 +1,6 @@
 # TaskLog
 
-A beautiful, privacy-first task calendar built for people who actually want to track what they do — not just what they plan to do. All data lives in your browser (localStorage). No account, no server, no tracking.
+A beautiful, privacy-first task calendar built for people who actually want to track what they do — not just what they plan to do. Supports multiple local accounts with per-user data isolation — no server, no cloud, no tracking. Everything stays in your browser.
 
 ---
 
