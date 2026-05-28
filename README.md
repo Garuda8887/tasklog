@@ -2,7 +2,27 @@
 
 A beautiful, privacy-first task calendar built for people who actually want to track what they do — not just what they plan to do. All data lives in your browser (localStorage). No account, no server, no tracking.
 
-![TaskLog](public/icon.svg)
+---
+
+## Screenshots
+
+### Dashboard — Month view
+![Dashboard](screenshots/dashboard.png)
+
+### Week view
+![Week view](screenshots/week-view.png)
+
+### New task — Smart natural-language input
+![Task modal](screenshots/task-modal.png)
+
+### Global search (`Ctrl+K` / `/`)
+![Search](screenshots/search.png)
+
+### Mobile
+![Mobile](screenshots/mobile.png)
+
+### Sign in
+![Auth](screenshots/auth.png)
 
 ---
 
@@ -104,6 +124,7 @@ src/
 public/
   icon.svg          # App icon (512×512)
   pwa-*.png         # PWA manifest icons
+screenshots/        # README screenshots
 ```
 
 ---
